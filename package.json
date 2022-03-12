@@ -2,7 +2,7 @@
   "name": "apipoints",
   "version": "1.0.0",
   "description": "\"ojala este sirva\"",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
