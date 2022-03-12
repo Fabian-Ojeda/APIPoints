@@ -28,6 +28,11 @@ const mostrar = async () => {
     return points
 }
 
+app.get('/', async (req, res) => {
+    
+    res.send("hola")
+})
+
 app.get('/pointsCrash', async (req, res) => {
     var data = await mostrar()
     
